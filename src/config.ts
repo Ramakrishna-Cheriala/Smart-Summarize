@@ -1,5 +1,5 @@
-// export const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-export const GEMINI_API_KEY = "AIzaSyDMVfO--F2dG8NqSGYU_Mbwt6qFc9SvGCQ";
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+
 export const GEMINI_API_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
